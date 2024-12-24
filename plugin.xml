@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.azentio.cordovapluginios" 
+        version="0.0.1" 
+        xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>CordovaPluginIos</name>
+    <js-module name="CordovaPluginIos" src="www/CordovaPluginIos.js">
+        <clobbers target="cordova.plugins.CordovaPluginIos" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="CordovaPluginIos">
+                <param name="ios-package" value="CordovaPluginIos" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/CordovaPluginIos.m" />
+    </platform>
+</plugin>

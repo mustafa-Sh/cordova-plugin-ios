@@ -1,0 +1,17 @@
+{
+  "name": "com.azentio.cordovapluginios",
+  "version": "0.0.1",
+  "description": "ios csutom plugin",
+  "cordova": {
+    "id": "com.azentio.cordovapluginios",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Mustafa",
+  "license": "ISC"
+}
